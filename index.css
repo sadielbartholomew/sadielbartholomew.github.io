@@ -311,7 +311,7 @@ ul.style2 li:first-child {
 
 #featured {
   height: 30em;
-  background-image: url(img/stchads.jpg);
+  background-image: url(img/paintings/stchads_orig.jpg);
   background-position: center;
   background-size: cover;
 }
