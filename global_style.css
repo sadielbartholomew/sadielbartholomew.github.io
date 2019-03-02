@@ -236,7 +236,7 @@ ul.style2 li:first-child {
   line-height: 90px;
   text-decoration: none;
   font-size: 0.90em;
-  font-weight: 400;
+  font-weight: 350;
   text-transform: uppercase;
   outline: 0;
   color: #898989;
@@ -310,9 +310,12 @@ ul.style2 li:first-child {
    ========================================================================== */
 
 #featured {
-  height: 30em;
+  margin-top: 0em;
+  height: 35em;
+  background-color: white;
   background-image: url(img/paintings/stchads_orig.jpg);
-  background-position: center;
+  background-position: center 0px;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
