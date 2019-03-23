@@ -2,7 +2,10 @@
 
 < Disclaimer: respect course developers copyright, link them in>
 
+*******************
+
 ## Day 1
+
 
 ### Intro to course
 
@@ -12,15 +15,20 @@ UX is:
 * “the science & discipline of design performance”
 * is not just UI, it “has a lot more to say”
 
+
 ##### Apollo 16 film clip
 
 <link>
 
-Three lessons from it about UX:
+Three lessons from it about UX. UX is...
 
-    1. UX is **problem solving** for others; in doing UX design we are being **knowledge workers**.
-    2. UX is **collaborative**; it values **diversity** of thought & expertise in the problem solving.
-    3. UX is “for the **real world**”; it focuses on the **parameters** in the problem to solve.
+1. **problem solving** for others; in doing UX design we are being
+   **knowledge workers**.
+2. **collaborative**; it values **diversity** of thought & expertise in the
+   problem solving.
+3. “for the **real world**”; it focuses on the **parameters** in the problem
+   to solve.
+
 
 ##### Exercise 1
 
@@ -28,29 +36,57 @@ Question to the group: define UX, first independently then in a group of 2 or 3
 
 Teacher’s thoughts & feedback after the exercise:
 
-* “All design influences behaviour”: “users have an emotional response to how we treat them with our products”
-* “Control is important”: we don’t like it when our control is taken away. Example of controversy of U2 free album, & autoplaying.
-* There is a focus on goals: “users want to get things done”, & it is about their “needs and wants”
+* “All design influences behaviour”: “users have an emotional response to how
+  we treat them with our products”
+
+* “Control is important”: we don’t like it when our control is taken away.
+  Example of controversy of U2 free album, & autoplaying.
+
+* There is a focus on goals: “users want to get things done”, & it is about
+  their “needs and wants”
 
 Group discussion on frustrating digital experiences they have had:
 
 * it is not just “to design” but “to define” the user’s experience.
-* “we can make users feel angry”, usually when they are trying to do something standard (i.e. not unusual), & they have difficulty doing so.
-* But anger is not the only, or worst, negative emotion that we can make the user feel: can make the user **feel stupid**, where you want to make them **feel empowered**. Though while some would assume “I am stupid” others would assume “they (i.e. the designers, we) are stupid”. Don’t want to make them unsure, want to give them confidence.
-* Conversely, **users respond to positive experiences with loyalty** i.e. they become loyal and regularly use those products which treat them better, over equivalent alternatives. Example: Whatsapp, which took on the very large market of text messaging, with a unique selling point of being very good at group text messaging. It’s success in such a large market was largely down to good UX.
-* Terminology: the standard term is “user” but could also say “customer”, though ultimately the teacher prefers the term “human”, as ultimately this is what it is, but couldn’t call his company a “human experience (HX)” one as that would get no Google search hits! Just a label really, though.
-* Imagine that you could observe i.e. watch over various users to see what they do. The key is how we make users feel, so we need to try to predict their emotion.
-* Big companies such as Google & Amazon set the bar and set it high; they have “democratised good UX”.
+
+* “we can make users feel angry”, usually when they are trying to do
+  something standard (i.e. not unusual), & they have difficulty doing so.
+
+* But anger is not the only, or worst, negative emotion that we can make the
+  user feel: can make the user **feel stupid**, where you want to make them
+  **feel empowered**. Though while some would assume “I am stupid” others
+  would assume “they (i.e. the designers, we) are stupid”. Don’t want to
+  make them unsure, want to give them confidence.
+
+* Conversely, **users respond to positive experiences with loyalty** i.e.
+  they become loyal and regularly use those products which treat them better,
+  over equivalent alternatives. Example: Whatsapp, which took on the very
+  large market of text messaging, with a unique selling point of being very
+  good at group text messaging. It’s success in such a large market was
+  largely down to good UX.
+
+* Terminology: the standard term is “user” but could also say “customer”,
+  though ultimately the teacher prefers the term “human”, as ultimately this
+  is what it is, but couldn’t call his company a “human experience (HX)” one
+  as that would get no Google search hits! Just a label really, though.
+
+* Imagine that you could observe i.e. watch over various users to see what
+  they do. The key is how we make users feel, so we need to try to predict
+  their emotion.
+
+* Big companies such as Google & Amazon set the bar and set it high; they
+  have “democratised good UX”.
 
 Teacher’s summary: gives Wikipedia definition, & adds “what it feels like to use a product, system or service”.
+
 
 ##### “3 lenses of UX” with case study examples:
 
 UX “views design through various **lenses** which make up the design, the three core ones being:
 
-    1. Functional
-    2. Aesthetic
-    3. Experience i.e. performance
+1. Functional
+2. Aesthetic
+3. Experience i.e. performance
 
 ##### Case study 1: Luxury cars e.g. Mercedes
 
@@ -70,12 +106,12 @@ UX “views design through various **lenses** which make up the design, the thre
 
 Arranged into modules:
 
-    1. UX Theory
-    2. Research Techniques
-    3. Analysing Research Data
-    4. Designing the Experience
-    5. ?
-    6. ?
+1. UX Theory
+2. Research Techniques
+3. Analysing Research Data
+4. Designing the Experience
+5. ?
+6. ?
 
 ### The design process
 
@@ -130,10 +166,10 @@ Can summarise with a great Leo Cherne quote: “The computer is incredibly fast,
 
 #### Common user research techniques
 
-    1. **A/B testing**: provide two different screens & note the response to each one, where the better performing option is kept. Example shown of Amazon postage address choice screen, where the teacher caught them using A/B testing in-situ, as one page showed each address in a box as part of a two-column set of address boxes, the other showed the addresses in a standard one-column list. A/B tests are very common across the big tech companies e.g. Amazon, Google.
-    2. **Usability testing**:  where you physically observe the user.
-    3. **Field studies** and **contextual enquiries** (the difference between these is minimal i.e. they are largely the same): usability testing, as above, but outside of “the lab”. This is important because otherwise there is the “lab bias”, a bias of being in an artificial environment rather than the natural use-case one. In these, you often find out about the **workarounds** i.e. shortcuts that users feel compelled to use to simply do what they need to do when it is not otherwise clear or possible.
-    4. **card sorting** & **tree testing**: other methods, not described in detail.
+1. **A/B testing**: provide two different screens & note the response to each one, where the better performing option is kept. Example shown of Amazon postage address choice screen, where the teacher caught them using A/B testing in-situ, as one page showed each address in a box as part of a two-column set of address boxes, the other showed the addresses in a standard one-column list. A/B tests are very common across the big tech companies e.g. Amazon, Google.
+2. **Usability testing**:  where you physically observe the user.
+3. **Field studies** and **contextual enquiries** (the difference between these is minimal i.e. they are largely the same): usability testing, as above, but outside of “the lab”. This is important because otherwise there is the “lab bias”, a bias of being in an artificial environment rather than the natural use-case one. In these, you often find out about the **workarounds** i.e. shortcuts that users feel compelled to use to simply do what they need to do when it is not otherwise clear or possible.
+4. **card sorting** & **tree testing**: other methods, not described in detail.
 
 * Bias is a major challenge in research, overall, but qualitative “altit.” (analysis/attitude?) is a particular “red zone” for it.
 * The *quadrant diagram* is just for primary research methods. Can also do secondary research and a final type: “desk research” e.g. market research and studies into competitors.
@@ -163,6 +199,7 @@ Can summarise with a great Leo Cherne quote: “The computer is incredibly fast,
 * From the actual example UT in the course: “gold dust” phrases we are hearing are “I haven’t been told...”, “I had to make an assumption”, “I had to settle for this”.
 * There is software available that can record the electronic actions of the user & can take video recording too. Example from course is CAMTASIA but it is not free, and free alternatives are available.
 
+*******************
 
 ## UX training: day 2
 
@@ -176,10 +213,12 @@ Can summarise with a great Leo Cherne quote: “The computer is incredibly fast,
 ##### Exercise:
 
 * Did affinity diagram on Stenna UT (from day 1).
+
 * After the exercise, teacher and participant feedback:
-1. best when people challenge each other’s post it notes.
-2. can be useful to do “dot voting” via dot stickers on points or labels that are most important to them.
-3. “tools to facilitate good discussion” rather than “as a means to an end”, i.e. to the the final diagram.
+
+    1. best when people challenge each other’s post it notes.
+    2. can be useful to do “dot voting” via dot stickers on points or labels that are most important to them.
+    3. “tools to facilitate good discussion” rather than “as a means to an end”, i.e. to the the final diagram.
 
 * terminology: “user flow”, “motorway”, “customer journey (plans)”, “pain points”, “entry points”, “decision points”, “user goals”, “user needs”, “conversion points”, “content priorities”.
 
@@ -197,14 +236,22 @@ Can summarise with a great Leo Cherne quote: “The computer is incredibly fast,
 
 Next module: Designing the Experience
 
-* There are three concepts to consider: 1. information architecture, 2. (user) flow, and 3. navigation.
+* There are three concepts to consider:
+    1. information architecture;
+    2. (user) flow;
+    3. navigation.
 * RE point 2: flow is helping users move around, e.g. can have ‘expert’ and (vs) ‘novice’ flows. pages on more than one flow are typically more complex. from looking at flow, designers can introduce anticipation & empathy (e.g. for the latter case where they let the user know an email is sending as asked).
 * each page should be considered always as part of some journey, not just as a destination.
 
 ##### Exercise: on flow diagram on facebook
 
 * Each step should be as intuitive and effortless as possible. But beware of ‘barometers’ such as “as few clicks as possible”, etc., as these are pretty clunky.
-*Effortlessness is a key metric. Even if flow is longer, that is fine as long as each step brings these three things: 1. control, 2. confidence, 3. getting closer & closer to the goal (not “losing the scent”).
+*Effortlessness is a key metric. Even if flow is longer, that is fine as long as each step brings these three things:
+
+    1. control;
+    2. confidence;
+    3. getting closer & closer to the goal (not “losing the scent”).
+
 * Flow needs to be designed.
 * Facebook example: lots of flows to do the same thing (permutations).
 * Building “motorways” means: 1. building the right functions PLUS 2. prioritising content.
@@ -234,7 +281,12 @@ Final bit of the jigsaw: the design piece
 * a **progress indicator/bar** is a “best friend”, universally, for communication of progress; says where have come from, where going to and how far along. It is typically displayed horizontally at the top.
 * **forms** are generally important ingredients.
 * Reference to Miss Universe 2015, where the wrong winner was announced. Reasons for this being an easy mistake based on card giving the relevant information to the announcer provided.
-* 3 behavioural criteria to assess forms against: 1) motivation e.g. not intimidating, 2) efficiency: appropriate fill-in speed, 3) accuracy: fewest errors.
+* Three behavioural criteria to assess forms against:
+
+    1. motivation e.g. not intimidating;
+    2. efficiency: appropriate fill-in speed;
+    3. accuracy: fewest errors.
+
 * structure, categorisation and hierarchy: are good, aim for these.
 * usually single-column designs are best (i.e. the highest performing) for forms, but exceptions are e.g. for forename-surname inputs & other functionality naturally lending itself to multi-column form elements, or expert users where the trade-off on speed versus complexity pays off.
 * also gently guide/nudge (“give forward momentum”) to help users along to their end goal.
@@ -252,21 +304,35 @@ Calls to action
 * “squint test” to check for calls to action: look at the whole page (e.g. zoomed out) to check what is most dominant to see, e.g. comparison of poor Irish government website with the very good “gov.uk” site for the initiation of the process of passport application i.e. how to start it, where “gov.uk” has a clear green “start now” button.
 * chunking related fields into similar sections, separated, is a very good idea.
 * mandatory fields, e.g. Baymerd design pattern with ‘(optional)’ afterwards on non-mandatory fields.
-* “affordance” is the degree to which something is 1) natural, 2) discoverable and 3) obvious.
+* “affordance” is the degree to which something is:
+
+    1. natural;
+    2. discoverable;
+    3. obvious.
 
 ##### Feedback
 
-* 2 types of feedback: 1) let the user know what happens i.e. *pro-active feedback*, 2) let the user know that you have got/received their input.
+* Two types of feedback:
+
+    1. let the user know what happens i.e. *pro-active feedback*;
+    2. let the user know that you have got/received their input.
+
 * *micro feedback*: Shazam example on getting audio.
+
 * Error handling for mistakes: for negative feedback, make sure the tone and style (etc.) that communicate it is *proportional* to the level of the problem! e.g. be conversational & don’t use “!!!” and capitals for a typo leading to an invalid field.
+
 * UX crime: “blanking the form” on a user!
 
 ##### Fitts’s Law
 
 * applicable elsewhere (e.g. in physical nature) but in software, defined as “the calls to action, i.e. the most important actions, should be big and close and immediate and obvious.”
+
 * constraints: most common in software; i.e. to constrain input fields e.g. keypad-constrained to numbers for phone numbers.
 
-##### Exercise: prototype/sketch for a redesign of StennaLine from the UT of day 1.
+##### Exercise: prototype/sketch for a redesign of StennaLine from the UT of day 1
 
 * this included trying out the Marvel prototyping app, where have areas on photos in which can move between photos to act as an interactive model.
+
 * UX checklist given (see slides).
+
+*******************
