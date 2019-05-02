@@ -6,7 +6,7 @@
         <link href="http://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet" />
         <link href="css/global_style.css" rel="stylesheet" type="text/css" media="all" />
 
-        <title>Sadie Bartholomew: Software</title>
+        <title>{{ post.title }}</title>
     </head>
 
     <body>
@@ -39,17 +39,17 @@
         </div>
 
         <!-- Featured image (for top-level pages) goes here. -->
-        <div id="featured" style="background-image: url(img/img_raw/computational/tiling/tiling01.png);">&nbsp;</div>
+        <div id="featured" style="background-image: url(img/{{ post.featured_image_url }});">&nbsp;</div>
 
         <!-- PAGE CONTENT GOES HERE. -->
         <div id="wrapper">
             <div id="page" class="container">
                 <div id="content">
                     <div class="title">
-                        <h2>Software</h2>
-                        <span class="byline">Software I have created or co-developed</span>
+                        <h2>{{ post.content_title }}</h2>
+                        <span class="byline">{{ post.content_byline }}</span>
                     </div>
-                    
+                    {{ post.content }}
                 </div>
             </div>
         </div>
