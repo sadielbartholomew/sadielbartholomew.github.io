@@ -3,7 +3,7 @@
 
     <head>
         <!-- Apply styling and custom font: -->
-        <link href="http://fonts.googleapis.com/css?family=Muli:300,400,600,700,800" rel="stylesheet" />
+        <link href="http://fonts.googleapis.com/css?family=Kosugi+Maru:300,400,600,700,800" rel="stylesheet" />
         <link href="css/global_style.css" rel="stylesheet" type="text/css" media="all" />
 
         <title>{{ post.title }}</title>
@@ -18,19 +18,19 @@
                 </div>
                 <div id="menu">
                     <ul>
-                        <li class="current_page_item">
+                        <li{% if post.accesskey == '1'%} class="current_page_item"{% endif %}>
                             <a href="index.html" accesskey="1" title="">Home</a>
                         </li>
-                        <li>
-                            <a href="documents.html" accesskey="2" title="">Documents</a>
+                        <li{% if post.accesskey == '2'%} class="current_page_item"{% endif %}>
+                            <a href="writing.html" accesskey="2" title="">Writing</a>
                         </li>
-                        <li>
+                        <li{% if post.accesskey == '3'%} class="current_page_item"{% endif %}>
                             <a href="artwork.html" accesskey="3" title="">Artwork</a>
                         </li>
-                        <li>
+                        <li{% if post.accesskey == '4'%} class="current_page_item"{% endif %}>
                             <a href="software.html" accesskey="4" title="">Software</a>
                         </li>
-                        <li>
+                        <li{% if post.accesskey == '5'%} class="current_page_item"{% endif %}>
                             <a href="music.html" accesskey="5" title="">Music</a>
                         </li>
                     </ul>
@@ -49,7 +49,9 @@
                         <h2>{{ post.content_title }}</h2>
                         <span class="byline">{{ post.content_byline }}</span>
                     </div>
+                    
                     {{ post.content }}
+                    
                 </div>
             </div>
         </div>

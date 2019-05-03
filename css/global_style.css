@@ -10,7 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
   background: #101023;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   font-size: 12pt;
   font-weight: 300;
   color: #6c6c6c;
@@ -235,7 +235,7 @@ ul.style2 li:first-child {
   letter-spacing: 0.20em;
   line-height: 90px;
   text-decoration: none;
-  font-size: 0.90em;
+  font-size: 1.00em;
   font-weight: 400;
   text-transform: uppercase;
   outline: 0;
@@ -246,7 +246,7 @@ ul.style2 li:first-child {
 }
 
 #menu .current_page_item a {
-  background: #3E0E01;
+  background: #280B12;
   color: #DDCEA8;
 }
 
