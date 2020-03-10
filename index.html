@@ -1,68 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Apply styling and custom font: -->
-        <link href="//fonts.googleapis.com/css?family=Kosugi+Maru:300,400,600,700,800" rel="stylesheet" />
-        <link href="css/global_style.css" rel="stylesheet" type="text/css" media="all" />
+<!--
 
-        <title>Sadie Bartholomew: Archive</title>
-    </head>
+  Content by Sadie Louise Bartholomew ('sadielbartholomew'), 2020.
 
-    <body>
-        <!-- Shared navigation bar with site title: -->
-        <div id="header-wrapper">
-            <div id="header" class="container">
-                <div id="logo">
-                    <h1><a href="#">Sadie Louise Bartholomew</a></h1>
+  Adapted from a basic template called 'Sided Template' by TemplateMo:
+  <https://templatemo.com/tm-527-sided>.
+
+  -->
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Google web font imports: -->
+    <link
+       href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
+       rel="stylesheet">
+    <!-- Personal Font Awesome (5, with 4 compat.) icon kit access: -->
+    <script src="https://kit.fontawesome.com/730f23fb98.js"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site-style.css" />
+
+    <title>Sadie Bartholomew | Homepage</title>
+
+  </head>
+
+
+<body>
+    <!-- INITIATE GLOBAL COLUMNS -->
+    <div class="columns-bg">
+
+
+      <!-- SITE TITLE -->
+      <section id="logo" class="tm-section-logo">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 offset-sm-0 col-md-6 offset-md-6">
+              <div class="tm-site-name-container">
+                <div class="tm-site-name-container-inner">
+                  <h1 class="text-uppercase tm-text-primary-red tm-site-name">
+                    Sadie Bartholomew
+                  </h1>
                 </div>
-                <div id="menu">
-                    <ul>
-                        <li class="current_page_item">
-                            <a href="index.html" accesskey="1" title="">Home</a>
-                        </li>
-                        <li>
-                            <a href="writing.html" accesskey="2" title="">Writing</a>
-                        </li>
-                        <li>
-                            <a href="artwork.html" accesskey="3" title="">Artwork</a>
-                        </li>
-                        <li>
-                            <a href="software.html" accesskey="4" title="">Software</a>
-                        </li>
-                        <li>
-                            <a href="music.html" accesskey="5" title="">Music</a>
-                        </li>
-                    </ul>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </section>
 
-        <!-- Featured image (for top-level pages) goes here. -->
-        <div id="featured" style="background-image: url(img/img_raw/paintings/stchads_orig.jpg);">&nbsp;</div>
 
-        <!-- PAGE CONTENT GOES HERE. -->
-        <div id="wrapper">
-            <div id="page" class="container">
-                <div id="content">
-                    <div class="title">
-                        <h2>Archive</h2>
-                        <span class="byline">Creative & Technical Work by Sadie L. Bartholomew</span>
-                    </div>
-                    
-                    <p>This website was created with the aim of archiving or linking to my personal (mainly recreational) projects. Additionally, most of my personal, as well as my open-source professional, software engineering work can be viewed via my GitHub profile page.</p>
-
-<p>[Site under construction!]</p>
-
-                    
-                </div>
+      <!-- INTRO: SUMMARY ABOUT ME -->
+      <section id="intro" class="tm-p-1-section-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">              
+              <div class="tm-section-text-container">
+                <h3 class="tm-text-white">
+                  <p class="mb-0">
+                    &#10093; computational scientist<br>
+                    &#10093; open-source software contributor<br>
+                    &#10093; creative
+                  </p>
+                </h3>
+              </div>
             </div>
+          </div>
         </div>
-        
-        <!-- Shared footer: -->
-        <div id="copyright" class="container">
-            <p>&copy; Material by <a href="https://github.com/sadielbartholomew" rel="nofollow">Sadie Bartholomew</a>. All rights reserved.</p>
+      </section>
+
+
+      <!-- ICON LINKS -->
+      <section id="iconlinks">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 tm-section-col-4 tm-section-title-mb">
+              <div class="tm-section-title-2 tm-text-white">
+                <a class="tm-social-icon-container"
+                   href="https://github.com/sadielbartholomew">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container"
+                   href="https://pypi.org/user/sadielbartholomew/">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-python"></i>
+                  </span>
+                </a>
+                 <a class="tm-social-icon-container"
+                   href="
+                   https://www.researchgate.net/profile/Sadie_Bartholomew">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-researchgate"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container"
+                   href="https://orcid.org/0000-0002-6180-3603">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-orcid"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 tm-section-title-mb tm-gallery-title-col">
+              <div class="tm-section-title-3">
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="https://people.ncas.ac.uk/people/view/515">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fas fa-university"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="index.html">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-dev"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="https://soundcloud.com/slb93">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-soundcloud"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="https://twitter.com/sadie_lb?lang=en">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-    </body>
+      </section>
+  
+
+      <!-- ABOUT ME LONGER DESCRIPTION -->
+      <section id="aboutme">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 offset-sm-0 col-md-6 offset-md-6">
+              <div class="tm-site-name-container border-bottom-0">
+                <div class="tm-site-name-container-inner">
+                  <h2 class="tm-text-primary-blue">
+                    <p class="mb-0">
+                      Computational scientist working for the National Centre
+                      for Atmospheric Science (NCAS). Open-source software
+                      & open science aficionado. Recreational artist, guitar
+                      music enthusiast & chess student.
+                    </p>
+                  </h2>
+                </div>
+              </div>
+            </div>  
+          </didv>
+        </div>
+      </section>
+
+
+      <!-- TECHNICAL AND CREATIVE WORK MAIN SECTION LINKS -->
+      <section id="gallery">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 tm-section-col-4 tm-section-title-mb
+                        tm-gallery-title-col">
+              <h2 class="tm-section-title-2 tm-text-white">
+                Technical work
+              </h2>
+                <hr class="tm-section-title-underline-left tm-hr-white" />
+            </div>
+            <div class="col-6 tm-section-title-mb tm-gallery-title-col">
+              <h2 class="tm-section-title-3">
+                Creative work
+              </h2>
+              <hr class="tm-section-title-underline-right tm-hr-black" />
+            </div>
+            <div class="col-md-6 tm-section-col-4">
+              <div class="tm-section-text-container-9">
+                <p class="tm-text-secondary mb-0">
+                  Details of professional & personal contributions
+                  in computing & science.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="tm-section-text-container-10">
+                <p class="tm-text-secondary mb-0">
+                  Archive of recreational creative work, projects & ideas.
+                </p>
+              </div>
+            </div>
+            <div class="grid-container">
+              <div class="grid-item">
+                <figure class="effect-duke mb-3">
+                  <img
+                    src="img/computational/tiling/tiling10.png"
+                    alt="Image"
+                    class="img-fluid"
+                    style="-webkit-filter: grayscale(80%);filter: grayscale(80%);"
+                  />
+                  <figcaption>
+                    <h2>
+                      Software
+                    </h2>
+                    <p>
+                      Software systems I have developed,
+                      co-developed, or contributed to
+                    </p>
+                    <a href="index-software.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-item">
+                <figure class="effect-duke mb-3">
+                  <img
+                    src="img/paintings/jug.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                  <figcaption>
+                    <h2>
+                      Art
+                    </h2>
+                    <p>
+                      Artwork in various media, mainly paintings & drawings
+                    </p>
+                    <a href="index-art.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-item">
+                <figure class="effect-duke">
+                  <img
+                    src="img/new/gare_du_nord.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                  <figcaption>
+                    <h2>
+                      Posts & Publications
+                    </h2>
+                    <p>
+                      Published papers & technical blog posts I have
+                      co-authored or written.
+                    </p>
+                    <a href="index-posts-and-publ.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-item">
+                <figure class="effect-duke">
+                  <img
+                    src="img/new/guitar_notebook_drawing.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                    style="-webkit-filter: grayscale(40%);filter: grayscale(50%);"
+                  />
+                  <figcaption>
+                    <h2>
+                      Music
+                    </h2>
+                    <p>
+                      Recorded music & compositions, based around the guitar
+                    </p>
+                    <a href="index-music.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- LATEST WORK AND HIGHLIGHTS SECTION HEADER -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 tm-section-col-4 tm-section-title-mb
+                        tm-gallery-title-col">
+              <h2 class="tm-section-title-2 tm-text-white tm-reflect-text">
+                Latest work & highlights
+              </h2>
+              <hr class="tm-fade-border" />
+            </div>
+            <div class="col-6 tm-section-title-mb tm-gallery-title-col">
+              <h2 class="tm-section-title-3">
+                Latest work & highlights
+              </h2>
+              <hr class="tm-section-title-underline-right tm-hr-black" />
+            </div>
+          </div>
+        </div>
+
+
+      <!-- LATEST WORK AND HIGHLIGHTS NUMBER 1 -->
+      <section id="section_2" class="tm-section-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-12 col-lg-6 tm-section-image-container
+                     tm-img-left-container">
+              <img src="img/greatSCABC2crop.png" alt="Image" class="img-fluid" />
+            </div>
+            <div class="col-md-12 col-lg-6 pl-lg-0">
+              <div class="tm-section-text-container-3 tm-bg-gray h-100">
+                <h2 class="tm-text-accent tm-section-title-mb">
+                  Replicating Ellsworth Kelly with random sampling
+                </h2>
+                <p class="mb-0">
+                  I recently undertook another mini-project to do
+                  something creative with matplotlib. This time I generated
+                  works in the spirit of Ellsworth Kelly's 'by chance' series.
+                </p>
+                <br>
+                <div class="text-right">
+                  <a href="https://github.com/sadielbartholomew/creative-matplotlib/blob/master/ellsworth-kelly-replications/README.md" class="btn btn-primary">
+                    Read More &#8614;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- LATEST WORK AND HIGHLIGHTS NUMBER 2 -->
+      <section id="section_4" class="tm-section-4">
+        <div class="container-fluid">
+          <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-md-12 col-lg-6 tm-text-left-container">
+              <div class="tm-section-text-container-3 tm-bg-white-alpha h-100">
+                <h2 class="tm-text-accent tm-section-title-mb">
+                  Intricate tilings using matplotlib: <i>repolygon</i>
+                </h2>
+                <p class="mb-0">
+                  I'm part way through tidying up the core of my project
+                  <i>repolygon</i> for  quick production of designs of
+                  tiled polygons in Python. Learn more about it here!
+                </p>
+                <br>
+                <div class="text-left">
+                  <a href="https://github.com/sadielbartholomew/creative-matplotlib/blob/master/repolygon/README.md" class="btn btn-primary">
+                    Read More &#8614;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-lg-6 tm-section-image-container tm-img-right-container"
+            >
+              <img
+                src="img/repolygon_feature_no_border.png"
+                alt="Image"
+                class="img-fluid tm-img-right"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- LATEST WORK AND HIGHLIGHTS NUMBER 3 -->
+      <section id="section_2" class="tm-section-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-12 col-lg-6 tm-section-image-container
+                     tm-img-left-container">
+              <img src="img/pixabay-1599663.png" alt="Image" class="img-fluid" />
+            </div>
+            <div class="col-md-12 col-lg-6 pl-lg-0">
+              <div class="tm-section-text-container-3 tm-bg-gray h-100">
+                <h2 class="tm-text-accent tm-section-title-mb">
+                  New website!
+                </h2>
+                <p class="mb-0">
+                  Welcome to my new personal website! Note I'm actively
+                  developing it, so it is fairly basic for now. Soon I'll
+                  write a little about the motivation behind it & the
+                  design choices I have made for it.
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- OUTRO INCLUDING FOOTER -->
+      <section id="outro">
+        <div class="container-fluid">
+            <footer class="col-md-6">
+              <p class="tm-copyright-text mb-0 tm-text-secondary">
+                &copy; Copyright (content & site design) 2020 Sadie
+                Louise Bartholomew
+              </p>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+      
+    </div>
+  </body>
 
 </html>
