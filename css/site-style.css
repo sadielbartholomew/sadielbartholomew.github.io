@@ -68,6 +68,7 @@ button {
 
 a {
   color: #007cc4;
+  outline: none;
 }
 
 .tm-bg-white-alpha {
@@ -191,6 +192,7 @@ a {
   margin-right: 25px;
   height: 600px;
   object-fit: cover;
+  bottom: 0px;
 }
 
 .grid-item figure img {
@@ -252,14 +254,15 @@ a {
 .grid-item figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
+  text-shadow: 2px 2px #1a1a1a;
 }
 
 
 /* --------------------------- FIGURE EFFECTS ----------------------- */
 
 figure.effect-duke {
-  background: -webkit-linear-gradient(-45deg, #f6f6f6 0%, #1a1a1a 100%);
-  background: linear-gradient(-45deg, #f6f6f6 0%, #1a1a1a 100%);
+  background: -webkit-linear-gradient(180deg, #f6f6f6 0%, #f6f6f6 100%);
+  background: linear-gradient(180deg, #1a1a1a 0%, #1a1a1a 100%);
 }
 
 figure.effect-duke img,
@@ -524,6 +527,7 @@ figure.effect-duke:hover p {
 .tm-fade-border {
   background-image: -webkit-linear-gradient(right, white, #1a1a1a, #1a1a1a);
   padding: 0.25px;
+  border-top: none;
 }
 
 .tm-hr-mb {
@@ -625,7 +629,6 @@ figure.effect-duke:hover p {
 }
 
 .tm-social-icon-container {
-  cursor: pointer;
   width: 75px;
   height: 75px;
   background-color: white;
@@ -648,13 +651,6 @@ figure.effect-duke:hover p {
   height: 100%;
 }
 
-.tm-social-icon-container-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 .tm-social-icon-container i {
   color: #1a1a1a;
 }
@@ -668,7 +664,11 @@ figure.effect-duke:hover p {
 }
 
 .tm-social-icon-container-2:hover i {
-  color: #fc991a;
+  color: white;
+}
+
+.tm-social-icon-container-2:hover {
+  background-color: #cc3300;
 }
 
 .tm-contact-icon {
