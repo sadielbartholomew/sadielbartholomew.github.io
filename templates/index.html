@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+
+  Content by Sadie Louise Bartholomew ('sadielbartholomew'), 2020.
+
+  Adapted from a basic template called 'Sided Template' by TemplateMo:
+  <https://templatemo.com/tm-527-sided>.
+
+  -->
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Google web font imports: -->
+    <link
+       href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
+       rel="stylesheet">
+    <!-- Personal Font Awesome (5, with 4 compat.) icon kit access: -->
+    <script src="https://kit.fontawesome.com/730f23fb98.js"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site-style.css" />
+
+    <title>
+      {{ my_name }} | {{ homepage_name }}
+    </title>
+
+  </head>
+
+
+  <body>
+    <!-- INITIATE GLOBAL COLUMNS -->
+    <div class="columns-bg">
+
+
+      <!-- SITE TITLE -->
+      <section id="logo" class="tm-section-logo">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 offset-sm-0 col-md-6 offset-md-6">
+              <div class="tm-site-name-container">
+                <div class="tm-site-name-container-inner">
+                  <h1 class="text-uppercase tm-text-primary-red tm-site-name">
+                    {{ my_name }}
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- INTRO: SUMMARY ABOUT ME -->
+      <section id="intro" class="tm-p-1-section-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="tm-section-text-container">
+                <h3 class="tm-text-white">
+                  <p class="mb-0">
+                    &#10093; {{ about_me_phrase_1 }}
+                    <br>
+                    &#10093; {{ about_me_phrase_2 }}
+                    <br>
+                    &#10093; {{ about_me_phrase_3 }}
+                  </p>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ICON LINKS -->
+      <section id="iconlinks">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 tm-section-col-4 tm-section-title-mb">
+              <div class="tm-section-title-2 tm-text-white">
+                <a class="tm-social-icon-container"
+                   href="https://github.com/sadielbartholomew">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container"
+                   href="https://pypi.org/user/sadielbartholomew/">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-python"></i>
+                  </span>
+                </a>
+                 <a class="tm-social-icon-container"
+                   href="
+                   https://www.researchgate.net/profile/Sadie_Bartholomew">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-researchgate"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container"
+                   href="https://orcid.org/0000-0002-6180-3603">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-orcid"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 tm-section-title-mb tm-gallery-title-col">
+              <div class="tm-section-title-3">
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="https://people.ncas.ac.uk/people/view/515">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fas fa-university"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container tm-social-icon-container-2">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-dev"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="https://soundcloud.com/slb93">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-soundcloud"></i>
+                  </span>
+                </a>
+                <a class="tm-social-icon-container tm-social-icon-container-2"
+                   href="https://twitter.com/sadie_lb?lang=en">
+                  <span class="tm-social-icon-container-inner">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ABOUT ME LONGER DESCRIPTION -->
+      <section id="aboutme">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 offset-sm-0 col-md-6 offset-md-6">
+              <div class="tm-site-name-container border-bottom-0">
+                <div class="tm-site-name-container-inner">
+                  <h2 class="tm-text-primary-blue">
+                    <p class="mb-0">
+                      {{ about_me_paragraph }}
+                    </p>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- TECHNICAL AND CREATIVE WORK MAIN SECTION LINKS -->
+      <section id="gallery">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 tm-section-col-4 tm-section-title-mb
+                        tm-gallery-title-col">
+              <h2 class="tm-section-title-2 tm-text-white">
+                {{ black_column_section_name }}
+              </h2>
+                <hr class="tm-section-title-underline-left tm-hr-white" />
+            </div>
+            <div class="col-6 tm-section-title-mb tm-gallery-title-col">
+              <h2 class="tm-section-title-3">
+                {{ white_column_section_name }}
+              </h2>
+              <hr class="tm-section-title-underline-right tm-hr-black" />
+            </div>
+            <div class="col-md-6 tm-section-col-4">
+              <div class="tm-section-text-container-9">
+                <p class="tm-text-secondary mb-0">
+                  {{ black_column_section_short_description }}
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="tm-section-text-container-10">
+                <p class="tm-text-secondary mb-0">
+                  {{ white_column_section_short_description }}
+                </p>
+              </div>
+            </div>
+            <div class="grid-container">
+              <div class="grid-item">
+                <figure class="effect-duke mb-3">
+                  <img
+                    src="img/index_featured/repolygon_feature_no_border.png"
+                    alt="Image"
+                    class="img-fluid"
+                    style="-webkit-filter: grayscale(80%);filter: grayscale(80%);"
+                  />
+                  <figcaption>
+                    <h2>
+                      {{ black_column_subsection_1_name }}
+                    </h2>
+                    <p>
+                      {{ black_column_subsection_1_short_description }}
+                    </p>
+                    <a href="sub-pages/index-software.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-item">
+                <figure class="effect-duke mb-3">
+                  <img
+                    src="img/paintings/jug.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                  <figcaption>
+                    <h2>
+                      {{ white_column_subsection_1_name }}
+                    </h2>
+                    <p>
+                      {{ white_column_subsection_1_short_description }}
+                    </p>
+                    <a href="sub-pages/index-art.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-item">
+                <figure class="effect-duke">
+                  <img
+                    src="img/index_featured/gare_du_nord.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                  <figcaption>
+                    <h2>
+                      {{ black_column_subsection_2_name }}
+                    </h2>
+                    <p>
+                      {{ black_column_subsection_2_short_description }}
+                    </p>
+                    <a href="sub-pages/index-posts-and-publ.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="grid-item">
+                <figure class="effect-duke">
+                  <img
+                    src="img/index_featured/guitar_notebook_drawing.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                    style="-webkit-filter: grayscale(40%);filter: grayscale(50%);"
+                  />
+                  <figcaption>
+                    <h2>
+                      {{ white_column_subsection_2_name }}
+                    </h2>
+                    <p>
+                      {{ white_column_subsection_2_short_description }}
+                    </p>
+                    <a href="sub-pages/index-music.html">
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- LATEST WORK AND HIGHLIGHTS SECTION HEADER -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 tm-section-col-4 tm-section-title-mb
+                        tm-gallery-title-col">
+              <h2 class="tm-section-title-2 tm-text-white tm-reflect-text">
+                {{ featured_sections_introduction_line }}
+              </h2>
+              <hr class="tm-fade-border" />
+            </div>
+            <div class="col-6 tm-section-title-mb tm-gallery-title-col">
+              <h2 class="tm-section-title-3">
+                {{ featured_sections_introduction_line }}
+              </h2>
+              <hr class="tm-section-title-underline-right tm-hr-black" />
+            </div>
+          </div>
+        </div>
+
+
+      <!-- LATEST WORK AND HIGHLIGHTS NUMBER 1 -->
+      <section id="section_2" class="tm-section-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-12 col-lg-6 tm-section-image-container
+                     tm-img-left-container">
+              <img src="img/index_featured/SCABC2_single.png"
+                   alt="Image"
+                   class="img-fluid"
+              />
+            </div>
+            <div class="col-md-12 col-lg-6 pl-lg-0">
+              <div class="tm-section-text-container-3 tm-bg-grey h-100">
+                <h2 class="tm-text-accent tm-section-title-mb">
+                  {{ featured_section_1_headline }}
+                </h2>
+                <p class="mb-0">
+                  {{ featured_section_1_summary }}
+                </p>
+                <br>
+                <div class="text-right">
+                  <a href="https://github.com/sadielbartholomew/creative-matplotlib/blob/master/ellsworth-kelly-replications/README.md"
+                     class="btn btn-primary"
+                  >
+                    Read More &#8614;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- LATEST WORK AND HIGHLIGHTS NUMBER 2 -->
+      <section id="section_4" class="tm-section-4">
+        <div class="container-fluid">
+          <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-md-12 col-lg-6 tm-text-left-container">
+              <div class="tm-section-text-container-3 tm-bg-dark-grey h-100">
+                <h2 class="tm-text-accent tm-section-title-mb">
+                  {{ featured_section_2_headline }}
+                </h2>
+                <p class="mb-0">
+                  {{ featured_section_2_summary }}
+                </p>
+                <br>
+                <div class="text-left">
+                  <a href="https://github.com/sadielbartholomew/creative-matplotlib/blob/master/repolygon/README.md"
+                     class="btn btn-primary"
+                  >
+                    Read More &#8614;
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-12 col-lg-6 tm-section-image-container
+                     tm-img-right-container"
+            >
+              <img
+                src="img/index_featured/repolygon_feature_no_border.png"
+                alt="Image"
+                class="img-fluid tm-img-right"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- LATEST WORK AND HIGHLIGHTS NUMBER 3 -->
+      <section id="section_2" class="tm-section-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-12 col-lg-6 tm-section-image-container
+                     tm-img-left-container">
+              <img src="img/external/pixabay-1599663.png"
+                   alt="Image"
+                   class="img-fluid"
+              />
+            </div>
+            <div class="col-md-12 col-lg-6 pl-lg-0">
+              <div class="tm-section-text-container-3 tm-bg-grey h-100">
+                <h2 class="tm-text-accent tm-section-title-mb">
+                  {{ featured_section_3_headline }}
+                </h2>
+                <p class="mb-0">
+                  {{ featured_section_3_summary }}
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- OUTRO INCLUDING FOOTER -->
+      <section id="outro">
+        <div class="container-fluid">
+            <footer class="col-md-6">
+              <p class="tm-copyright-text mb-0 tm-text-secondary">
+                &copy; {{ copyright_notice }}
+              </p>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+  </body>
+
+</html>
