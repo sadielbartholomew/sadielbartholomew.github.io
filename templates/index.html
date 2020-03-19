@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/site-style.css" />
 
     <title>
-      {{ my_name }} | {{ homepage_name }}
+      {{ site_global.my_name }} | {{ page.homepage_name }}
     </title>
 
   </head>
@@ -50,7 +50,7 @@
               <div class="tm-site-name-container">
                 <div class="tm-site-name-container-inner">
                   <h1 class="text-uppercase tm-text-primary-red tm-site-name">
-                    {{ my_name }}
+                    {{ site_global.my_name }}
                   </h1>
                 </div>
               </div>
@@ -68,11 +68,11 @@
               <div class="tm-section-text-container">
                 <h3 class="tm-text-white">
                   <p class="mb-0">
-                    &#10093; {{ about_me_phrase_1 }}
+                    &#10093; {{ page.about_me_phrase_1 }}
                     <br>
-                    &#10093; {{ about_me_phrase_2 }}
+                    &#10093; {{ page.about_me_phrase_2 }}
                     <br>
-                    &#10093; {{ about_me_phrase_3 }}
+                    &#10093; {{ page.about_me_phrase_3 }}
                   </p>
                 </h3>
               </div>
@@ -156,7 +156,7 @@
                 <div class="tm-site-name-container-inner">
                   <h2 class="tm-text-primary-blue">
                     <p class="mb-0">
-                      {{ about_me_paragraph }}
+                      {{ page.about_me_paragraph }}
                     </p>
                   </h2>
                 </div>
@@ -174,27 +174,27 @@
             <div class="col-6 tm-section-col-4 tm-section-title-mb
                         tm-gallery-title-col">
               <h2 class="tm-section-title-2 tm-text-white">
-                {{ black_column_section_name }}
+                {{ page.black_column_section_name }}
               </h2>
                 <hr class="tm-section-title-underline-left tm-hr-white" />
             </div>
             <div class="col-6 tm-section-title-mb tm-gallery-title-col">
               <h2 class="tm-section-title-3">
-                {{ white_column_section_name }}
+                {{ page.white_column_section_name }}
               </h2>
               <hr class="tm-section-title-underline-right tm-hr-black" />
             </div>
             <div class="col-md-6 tm-section-col-4">
               <div class="tm-section-text-container-9">
                 <p class="tm-text-secondary mb-0">
-                  {{ black_column_section_short_description }}
+                  {{ page.black_column_section_short_description }}
                 </p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="tm-section-text-container-10">
                 <p class="tm-text-secondary mb-0">
-                  {{ white_column_section_short_description }}
+                  {{ page.white_column_section_short_description }}
                 </p>
               </div>
             </div>
@@ -209,12 +209,12 @@
                   />
                   <figcaption>
                     <h2>
-                      {{ black_column_subsection_1_name }}
+                      {{ page.black_column_subsection_1_name }}
                     </h2>
                     <p>
-                      {{ black_column_subsection_1_short_description }}
+                      {{ page.black_column_subsection_1_short_description }}
                     </p>
-                    <a href="sub-pages/index-software.html">
+                    <a href="technical-sub-software.html">
                       View more
                     </a>
                   </figcaption>
@@ -229,12 +229,12 @@
                   />
                   <figcaption>
                     <h2>
-                      {{ white_column_subsection_1_name }}
+                      {{ page.white_column_subsection_1_name }}
                     </h2>
                     <p>
-                      {{ white_column_subsection_1_short_description }}
+                      {{ page.white_column_subsection_1_short_description }}
                     </p>
-                    <a href="sub-pages/index-art.html">
+                    <a href="creative-sub-art.html">
                       View more
                     </a>
                   </figcaption>
@@ -249,12 +249,12 @@
                   />
                   <figcaption>
                     <h2>
-                      {{ black_column_subsection_2_name }}
+                      {{ page.black_column_subsection_2_name }}
                     </h2>
                     <p>
-                      {{ black_column_subsection_2_short_description }}
+                      {{ page.black_column_subsection_2_short_description }}
                     </p>
-                    <a href="sub-pages/index-posts-and-publ.html">
+                    <a href="technical-sub-posts.html">
                       View more
                     </a>
                   </figcaption>
@@ -270,12 +270,12 @@
                   />
                   <figcaption>
                     <h2>
-                      {{ white_column_subsection_2_name }}
+                      {{ page.white_column_subsection_2_name }}
                     </h2>
                     <p>
-                      {{ white_column_subsection_2_short_description }}
+                      {{ page.white_column_subsection_2_short_description }}
                     </p>
-                    <a href="sub-pages/index-music.html">
+                    <a href="creative-sub-music.html">
                       View more
                     </a>
                   </figcaption>
@@ -293,13 +293,13 @@
             <div class="col-6 tm-section-col-4 tm-section-title-mb
                         tm-gallery-title-col">
               <h2 class="tm-section-title-2 tm-text-white tm-reflect-text">
-                {{ featured_sections_introduction_line }}
+                {{ page.featured_sections_introduction_line }}
               </h2>
               <hr class="tm-fade-border" />
             </div>
             <div class="col-6 tm-section-title-mb tm-gallery-title-col">
               <h2 class="tm-section-title-3">
-                {{ featured_sections_introduction_line }}
+                {{ page.featured_sections_introduction_line }}
               </h2>
               <hr class="tm-section-title-underline-right tm-hr-black" />
             </div>
@@ -322,10 +322,10 @@
             <div class="col-md-12 col-lg-6 pl-lg-0">
               <div class="tm-section-text-container-3 tm-bg-grey h-100">
                 <h2 class="tm-text-accent tm-section-title-mb">
-                  {{ featured_section_1_headline }}
+                  {{ page.featured_section_1_headline }}
                 </h2>
                 <p class="mb-0">
-                  {{ featured_section_1_summary }}
+                  {{ page.featured_section_1_summary }}
                 </p>
                 <br>
                 <div class="text-right">
@@ -349,10 +349,10 @@
             <div class="col-md-12 col-lg-6 tm-text-left-container">
               <div class="tm-section-text-container-3 tm-bg-dark-grey h-100">
                 <h2 class="tm-text-accent tm-section-title-mb">
-                  {{ featured_section_2_headline }}
+                  {{ page.featured_section_2_headline }}
                 </h2>
                 <p class="mb-0">
-                  {{ featured_section_2_summary }}
+                  {{ page.featured_section_2_summary }}
                 </p>
                 <br>
                 <div class="text-left">
@@ -394,10 +394,10 @@
             <div class="col-md-12 col-lg-6 pl-lg-0">
               <div class="tm-section-text-container-3 tm-bg-grey h-100">
                 <h2 class="tm-text-accent tm-section-title-mb">
-                  {{ featured_section_3_headline }}
+                  {{ page.featured_section_3_headline }}
                 </h2>
                 <p class="mb-0">
-                  {{ featured_section_3_summary }}
+                  {{ page.featured_section_3_summary }}
                 </p>
                 <br>
               </div>
@@ -412,7 +412,7 @@
         <div class="container-fluid">
             <footer class="col-md-6">
               <p class="tm-copyright-text mb-0 tm-text-secondary">
-                &copy; {{ copyright_notice }}
+                &copy; {{ site_global.copyright_notice }}
               </p>
             </footer>
           </div>

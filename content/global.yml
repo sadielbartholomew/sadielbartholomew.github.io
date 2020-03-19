@@ -1,13 +1,10 @@
 my_name: Sadie Bartholomew
 
-section_name: Technical
-subsection_name: Software
+copyright_notice: >
 
-about_subsection_phrase_1: professional software projects & contributions
-about_subsection_phrase_2: personal investigations & (mini-)projects
-about_subsection_phrase_3: thoughts on certain libraries & frameworks, etc.
+  Copyright (content & site design) 2020 Sadie Louise Bartholomew
 
-subsection_summary_paragraphs:
+placeholder_paragraphs: |
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Cras eleifend, ex ac commodo ullamcorper, velit lacus
@@ -27,7 +24,3 @@ subsection_summary_paragraphs:
   placerat non justo fringilla ultricies. Aenean luctus
   dignissim sodales. Praesent non tortor diam. Vestibulum
   tincidunt nibh vitae diam scelerisque convallis.
-
-copyright_notice:
-
-  Copyright (content & site design) 2020 Sadie Louise Bartholomew
