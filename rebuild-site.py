@@ -10,7 +10,7 @@ creative_homepage_template = jinja2_env.get_template('subindex-creative.html')
 technical_homepage_template = jinja2_env.get_template(
     'subindex-technical.html')
 
-# Define which template shoudl be applied which each content set
+# Define which template should be applied which each content set
 content_to_template_mapping = {
     'index.yml': root_homepage_template,
 }
@@ -20,10 +20,10 @@ for page in os.listdir('content'):  # assume all YAML files (as standard)
     elif page.startswith('technical-sub'):
         content_to_template_mapping[page] = technical_homepage_template
 
-# Populate templates with content and write to files as the rendered pages.
+# Populate templates with content and write to files as the rendered pages
 # Process global content first:
 with open(os.path.join('content', 'global.yml')) as file:
-    global_content = yaml.load(file.read())
+    global_content = yaml.load(file.read(), Loader=yaml.BaseLoader)
 for content_set, template in content_to_template_mapping.items():
     # Process the local (page-specific) content keys and values
     file_path = os.path.join('content', content_set)
