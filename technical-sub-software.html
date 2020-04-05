@@ -15,10 +15,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <!-- Initialize EnlighterJS -->
+    <meta
+      name="EnlighterJS"
+      content="Advanced javascript based syntax highlighting"
+      data-indent="4"
+      data-selector-block="pre"
+      data-selector-inline="code"
+      data-language="javascript"
+      data-theme="sadiescustom"
+    />
+
     <!-- Google web font imports: -->
     <link
-       href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
-       rel="stylesheet">
+      href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    >
     <!-- Personal Font Awesome (5, with 4 compat.) icon kit access: -->
     <script src="https://kit.fontawesome.com/730f23fb98.js"
             crossorigin="anonymous"></script>
@@ -28,6 +40,26 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site-style.css" />
+
+    <!-- Include EnlighterJS style and my custom style -->
+    <link rel="stylesheet" type="text/css" href="css/EnlighterJS.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/sadiescustom-enlighter-theme.css"
+    />
+
+    <!-- Include EnlighterJS and its dependency the MooTools Framework -->
+    <script
+      type="text/javascript"
+      src="js/MooTools-Core-1.6.0-compressed.js"
+    >
+    </script>
+    <script
+      type="text/javascript"
+      src="js/EnlighterJS.min.js"
+    >
+    </script>
 
     <title>
       Sadie Bartholomew | Technical | Software
@@ -73,25 +105,24 @@
               <div class="tm-page-name-container-inner">
                 <h2 class="tm-text-primary-blue">
                   <p class="mb-0">
-                    
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Cras eleifend, ex ac commodo ullamcorper, velit lacus
-malesuada orci, eget blandit mi purus eu justo.
-Duis varius mi vel lectus volutpat porta.
+                    These pages are under construction, but eventually will be populated to contain the above items. In the meantime, enjoy some ASCII text art:
 
-In congue eu libero id sodales. Fusce sit amet convallis
-lacus. Aliquam erat volutpat. Phasellus vel metus eu
-magna commodo tincidunt. Pellentesque ut porta ex, a
-facilisis lorem. Etiam consequat orci metus, eu
-consectetur diam fringilla et.
+                  </p>
+                  <pre data-enlighter-language="python">#   ______    ______    _____    ______      ______    __  __
+#  /\  ___\  /\  __ \  /\  __-. /\  ___\    /\  == \  /\ \_\ \
+#  \ \ \____ \ \ \/\ \ \ \ \/\ \\ \  __\    \ \  __<  \ \____ \
+#   \ \_____\ \ \_____\ \ \____- \ \_____\   \ \_____\ \/\_____\
+#    \/_____/  \/_____/  \/____/  \/_____/    \/_____/  \/_____/
+#             ______    ______    _____    __    ______    
+#            /\  ___\  /\  __ \  /\  __-. /\ \  /\  ___\   
+#            \ \___  \ \ \  __ \ \ \ \/\ \\ \ \ \ \  __\   
+#             \/\_____\ \ \_\ \_\ \ \____- \ \_\ \ \_____\ 
+#              \/_____/  \/_/\/_/  \/____/  \/_/  \/_____/ 
 
-Nam vestibulum, ligula eu dignissim hendrerit, mauris
-elit accumsan eros, quis laoreet erat tortor id augue.
-Mauris quis pellentesque nulla, quis imperdiet felis.
-Curabitur eget pellentesque dui, vel rhoncus nisi. Duis
-placerat non justo fringilla ultricies. Aenean luctus
-dignissim sodales. Praesent non tortor diam. Vestibulum
-tincidunt nibh vitae diam scelerisque convallis.
+print("Hello World!")  # my main language is Python (3, of course)
+                  </pre>
+                  <p class="mb-0">
+                    At present you can find information about my current & past software work on my user pages on other sites, notably GitHub & PyPI, both of which are linked from the homepage (see the row of icons towards the top).
 
                   </p>
                 </h2>

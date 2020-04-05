@@ -5,3 +5,29 @@ subsection_name: Software
 about_subsection_phrase_1: professional software projects & contributions
 about_subsection_phrase_2: personal investigations & (mini-)projects
 about_subsection_phrase_3: thoughts on certain libraries & frameworks, etc.
+
+
+# MAIN SUBSECTION CONTENT -----------------------------------------------------
+
+pre_intro_code_paragraphs: >
+  These pages are under construction, but eventually will be populated to
+  contain the above items. In the meantime, enjoy some ASCII text art:
+
+intro_code: |-
+  #   ______    ______    _____    ______      ______    __  __
+  #  /\  ___\  /\  __ \  /\  __-. /\  ___\    /\  == \  /\ \_\ \
+  #  \ \ \____ \ \ \/\ \ \ \ \/\ \\ \  __\    \ \  __<  \ \____ \
+  #   \ \_____\ \ \_____\ \ \____- \ \_____\   \ \_____\ \/\_____\
+  #    \/_____/  \/_____/  \/____/  \/_____/    \/_____/  \/_____/
+  #             ______    ______    _____    __    ______    
+  #            /\  ___\  /\  __ \  /\  __-. /\ \  /\  ___\   
+  #            \ \___  \ \ \  __ \ \ \ \/\ \\ \ \ \ \  __\   
+  #             \/\_____\ \ \_\ \_\ \ \____- \ \_\ \ \_____\ 
+  #              \/_____/  \/_/\/_/  \/____/  \/_/  \/_____/ 
+
+  print("Hello World!")  # my main language is Python (3, of course)
+
+post_intro_code_paragraphs: >
+  At present you can find information about my current & past software work on
+  my user pages on other sites, notably GitHub & PyPI, both of which are
+  linked from the homepage (see the row of icons towards the top).

@@ -15,10 +15,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <!-- Initialize EnlighterJS -->
+    <meta
+      name="EnlighterJS"
+      content="Advanced javascript based syntax highlighting"
+      data-indent="4"
+      data-selector-block="pre"
+      data-selector-inline="code"
+      data-language="javascript"
+      data-theme="sadiescustom"
+    />
+
     <!-- Google web font imports: -->
     <link
-       href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
-       rel="stylesheet">
+      href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    >
     <!-- Personal Font Awesome (5, with 4 compat.) icon kit access: -->
     <script src="https://kit.fontawesome.com/730f23fb98.js"
             crossorigin="anonymous"></script>
@@ -28,6 +40,26 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site-style.css" />
+
+    <!-- Include EnlighterJS style and my custom style -->
+    <link rel="stylesheet" type="text/css" href="css/EnlighterJS.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/sadiescustom-enlighter-theme.css"
+    />
+
+    <!-- Include EnlighterJS and its dependency the MooTools Framework -->
+    <script
+      type="text/javascript"
+      src="js/MooTools-Core-1.6.0-compressed.js"
+    >
+    </script>
+    <script
+      type="text/javascript"
+      src="js/EnlighterJS.min.js"
+    >
+    </script>
 
     <title>
       {{ site_global.my_name }} | Technical | {{ page.subsection_name }}
@@ -73,7 +105,12 @@
               <div class="tm-page-name-container-inner">
                 <h2 class="tm-text-primary-blue">
                   <p class="mb-0">
-                    {{ site_global.placeholder_paragraphs }}
+                    {{ page.pre_intro_code_paragraphs }}
+                  </p>
+                  <pre data-enlighter-language="python">{{ page.intro_code }}
+                  </pre>
+                  <p class="mb-0">
+                    {{ page.post_intro_code_paragraphs }}
                   </p>
                 </h2>
               </div>

@@ -5,3 +5,33 @@ subsection_name: Posts & Publications
 about_subsection_phrase_1: blog posts on topics within science & technology
 about_subsection_phrase_2: academic journal publications
 about_subsection_phrase_3: other articles & notes
+
+
+# MAIN SUBSECTION CONTENT -----------------------------------------------------
+pre_intro_code_paragraphs: >
+  These pages are under construction, but eventually will be populated to
+  contain the above items. In the meantime, enjoy some ASCII text art:
+
+intro_code: |-
+  #    ,_    _,_ ,   -/- ,      __,  ,__,   __/ 
+  #   _/_)__(_/_/_)__/__/_)_   (_/(__/ / (__(_/(_
+  #   /                          
+  #  /
+  #                  _                                   
+  #    ,_         /_  //  .  __  __,  -/- .  _,_ ,__,   ,  
+  #   _/_)__(_/__/_)_(/__/__(_,_(_/(__/__/__(_/_/ / (__/_)_
+  #   /                                                    
+  #  /                                                     
+  #               __
+  #    /_          (   __,   __/   .  _ 
+  #  _/_)_(_/_   _/_)_(_/(__(_/(__/__(/_
+  #       _/_                           
+  #      (/                             
+                                   
+  print("Hello World!")
+
+post_intro_code_paragraphs: >
+  At present you can find information about my technical work on my user
+  pages on other sites, including ResearchGate, ORCID, & the staff
+  database for National Centre for Atmospheric Science (NCAS), all of which
+  are linked from the homepage (see the row of icons towards the top).
