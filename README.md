@@ -17,7 +17,8 @@ Designed & created by Sadie Louise Bartholomew, 2020+.
 * HTML;
 * CSS;
 * [YAML](https://yaml.org/);
-* [Jinja(2)](https://jinja.palletsprojects.com/en/2.11.x/intro/).
+* [Jinja(2)](https://jinja.palletsprojects.com/en/2.11.x/intro/);
+* [EnlighterJS](https://enlighterjs.org/).
 
 
 #### Repository organisation
