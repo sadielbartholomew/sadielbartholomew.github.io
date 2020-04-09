@@ -13,7 +13,7 @@ Designed & created by Sadie Louise Bartholomew, 2020+.
 
 ### Technologies & languages
 
-* [GitHub pages](https://pages.github.com/);
+* [GitHub Pages](https://pages.github.com/);
 * HTML;
 * CSS;
 * [YAML](https://yaml.org/);
@@ -54,11 +54,11 @@ The command calls the Python script ``rebuild-site.py`` which:
   2. processes the template files;
   3. uses Jinja2 to inject the YAML key-values from each content file into
      the corresponding key elements in the HTML templates;
-  4. Writes the populated HTML to the root repository directory.
+  4. writes the populated HTML to the root repository directory.
 
 
 Changes to the code should be built into the final pages via the ``rebuild``
 command & then the full state of the repository committed to the ``master``
 branch. The changes will then (possibly after a short-ish delay for GitHub to
 process them) display at the site domain, ``sadielbartholomew.github.io``,
-as a GitHub pages website.
+as a GitHub Pages website.

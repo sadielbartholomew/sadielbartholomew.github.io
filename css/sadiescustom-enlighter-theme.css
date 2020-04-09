@@ -11,6 +11,7 @@ Author: Sadie Bartholomew (GH user 'sadielbartholomew')
 .sadiescustomEnlighterJSTabPane {
   font-family: Consolas, "Source Code Pro", "Liberation Mono",
     "Courier New", Courier, monospace;
+  overflow: visible;
 }
 
 /* Inline specific styles */
