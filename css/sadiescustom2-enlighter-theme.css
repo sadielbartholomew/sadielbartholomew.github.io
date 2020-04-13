@@ -1,0 +1,149 @@
+/*
+
+Theme called 'sadiescustom2' for customising EnlighterJS code block elements. 
+
+Author: Sadie Bartholomew (GH user 'sadielbartholomew')
+
+*/
+
+.sadiescustom2EnlighterJS,
+.sadiescustom2EnlighterJSWrapper,
+.sadiescustom2EnlighterJSTabPane {
+  font-family: Consolas, "Source Code Pro", "Liberation Mono",
+    "Courier New", Courier, monospace;
+  overflow: visible;
+}
+
+/* Inline specific styles */
+span.sadiescustom2EnlighterJS {
+  background-color: #272b32;
+  padding: 3px 5px 3px 5px;
+}
+
+/* LIST specific styles */
+
+ol.sadiescustom2EnlighterJS,
+ul.sadiescustom2EnlighterJS,
+.sadiescustom2EnlighterJSWrapper pre {
+  color: #fc991a;
+  font-size: 14px;
+  background-color: white;
+  border-left: 1px dashed #fc991a;
+  border-right: 1px dashed #fc991a;
+  padding: 0px 0px 0px 0px;
+  margin: 20px 0px 20px 0px;
+}
+.sadiescustom2EnlighterJSWrapper pre {
+  font-size: 20px;
+  line-height: 22px;
+  color: #fc991a;
+}
+
+/* line styles */
+ol.sadiescustom2EnlighterJS li,
+ul.sadiescustom2EnlighterJS li {
+  border: solid 0px #ffffff;
+  line-height: 19px;
+  color: #fc991a;
+  background-color: transparent;
+  margin: 0px;
+  padding-left: 1px 5px 1px 0px;
+}
+
+ol.sadiescustom2EnlighterJS li {
+  list-style: decimal outside;
+  border-left: 0px dashed #e0e0e0;
+  color: #fc991a;
+  padding: 0px 0px 0px 10px;
+}
+
+ol.sadiescustom2EnlighterJS li:first-child {
+  padding-top: 0px;
+}
+
+ol.sadiescustom2EnlighterJS li:last-child {
+  padding-bottom: 0px;
+}
+
+/* default symbol styles */
+.sadiescustom2EnlighterJS span {
+  font-size: 20px;
+  color: #cccccc;
+}
+/* Symbol Styles */
+/* Delimiter e.g. <?php ?> */
+.sadiescustom2EnlighterJS .de1 { color: #4d4d4d; font-weight: bold; }
+.sadiescustom2EnlighterJS .de2 { color: #4d4d4d; font-weight: bold; }
+
+/* Language Kewords */
+.sadiescustom2EnlighterJS .kw1 { color: #cc3300; }
+.sadiescustom2EnlighterJS .kw2 { color: #cc3300; }
+.sadiescustom2EnlighterJS .kw3 { color: #cc3300; }
+.sadiescustom2EnlighterJS .kw4 { color: #cc3300; }
+
+/* Comments */
+.sadiescustom2EnlighterJS .co1 { color: #4d4d4d; }
+.sadiescustom2EnlighterJS .co2 { color: #4d4d4d; }
+
+/* Strings */
+.sadiescustom2EnlighterJS .st0 { color: #007cc4; }
+.sadiescustom2EnlighterJS .st1 { color: #007cc4; }
+.sadiescustom2EnlighterJS .st2 { color: #007cc4; }
+
+/* Numbers */
+.sadiescustom2EnlighterJS .nu0 { color: #fc991a; font-weight: bold; }
+
+.sadiescustom2EnlighterJS .me0 { color: #fc991a; }
+.sadiescustom2EnlighterJS .me1 { color: #fc991a; }
+
+/* Brackets */
+.sadiescustom2EnlighterJS .br0 { color: #cccccc; font-weight: bold; }
+
+/* Symbols */
+.sadiescustom2EnlighterJS .sy0 { color: #4d4d4d; font-weight: bold; }
+
+/* Escape Sequences */
+.sadiescustom2EnlighterJS .es0 { color: #4d4d4d; font-weight: bold; }
+
+/* Regular Expression outside Strings */
+.sadiescustom2EnlighterJS .re0 { color: #fc991a }
+
+/* hover effect */
+ol.sadiescustom2EnlighterJS.hoverEnabled li:hover,
+ul.sadiescustom2EnlighterJS.hoverEnabled li:hover {
+  background-color: #f6f6f6;
+}
+
+/* special line highlight color */
+ol.sadiescustom2EnlighterJS li.specialline,
+ul.sadiescustom2EnlighterJS li.specialline {
+  background-color: #392d3b;
+}
+
+/* Tab Pane */
+.sadiescustom2EnlighterJSTabPane .controls {
+  background-color: #121518;
+  padding: 5px 0px 0px 0px;
+}
+
+.sadiescustom2EnlighterJSTabPane .controls ul {
+  margin-left: 10px;
+}
+
+.sadiescustom2EnlighterJSTabPane .controls li {
+  border-radius: 0px;
+  background-color: transparent;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f0f0f0;
+  border-radius: 5px 5px 0px 0px;
+  text-transform: lowercase;
+}
+
+.sadiescustom2EnlighterJSTabPane .controls li:hover {
+}
+
+.sadiescustom2EnlighterJSTabPane .controls li.selected {
+  background-color: white;
+}

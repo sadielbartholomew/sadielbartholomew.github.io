@@ -71,6 +71,14 @@ a {
   outline: none;
 }
 
+.tm-bg-white-alpha {
+  background-color: rgba(255, 255, 255, 0.58);
+}
+
+.tm-bg-black-alpha {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .tm-bg-grey {
   background-color: #f6f6f6;
 }
@@ -146,6 +154,7 @@ a {
 #colour-bg-white {
   background: white;
 }
+
 
 /* ---------------------------- GRIDDING ---------------------------- */
 
@@ -394,6 +403,10 @@ pagefooter {
   justify-content: center;
 }
 
+.tm-page-content-container-wide {
+  max-width: none;
+}
+
 .tm-page-name-container {
   max-width: 900px;
   margin-left: auto;
@@ -401,6 +414,10 @@ pagefooter {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.tm-page-name-container-wide {
+  max-width: none;
 }
 
 .tm-page-name-container-inner {
@@ -496,11 +513,15 @@ pagefooter {
 }
 
 .tm-section-text-container-8 {
-  padding: 64px 68px;
+  padding: 40px 40px;
 }
 
 .tm-section-title-mb {
   margin-bottom: 30px;
+}
+
+.tm-overlay-text-larger {
+  font-size: 1.75rem;
 }
 
 .tm-section-title-mb-2 {
@@ -582,22 +603,6 @@ pagefooter {
   padding: 65px 140px;
 }
 
-#bg_img_31 {
-  background-image: url(../img/forty_image_31.jpg);
-  height: 640px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#bg_img_32 {
-  background-image: url(../img/forty_image_32.jpg);
-  height: 640px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .tm-section-icon-container {
   display: flex;
   align-items: center;
@@ -614,10 +619,20 @@ pagefooter {
 }
 
 .tm-text-overlay {
-  max-width: 498px;
+  max-width: 350px;
   width: 50%;
   height: 100%;
-  margin-left: 50%;
+  margin-left: 10%;
+}
+
+
+/* ------- LARGE FEATURED AND BACKGROUNDED IMAGES ------------------- */
+
+#bg_img {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
@@ -1038,10 +1053,6 @@ pagefooter {
     width: 100%;
   }
 
-  #bg_img_31 {
-    height: 500px;
-  }
-
   .tm-p-3-section-contact {
     padding-bottom: 60px;
   }
@@ -1139,8 +1150,3 @@ pagefooter {
     padding-top: 40px;
     padding-left: 10px;
   }
-
-  #bg_img_32 {
-    height: 600px;
-  }
-}

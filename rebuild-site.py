@@ -5,10 +5,13 @@ import yaml
 
 # Define the HTML templates which are processed by Jinja2
 jinja2_env = Environment(loader=FileSystemLoader('./templates'))
+
 root_homepage_template = jinja2_env.get_template('index.html')
 creative_homepage_template = jinja2_env.get_template('subindex-creative.html')
 technical_homepage_template = jinja2_env.get_template(
     'subindex-technical.html')
+gallery_template = jinja2_env.get_template('art-page.html')
+tab_based_template = jinja2_env.get_template('music-page.html')
 
 # Define which template should be applied which each content set
 content_to_template_mapping = {
@@ -19,6 +22,10 @@ for page in os.listdir('content'):  # assume all YAML files (as standard)
         content_to_template_mapping[page] = creative_homepage_template
     elif page.startswith('technical-sub'):
         content_to_template_mapping[page] = technical_homepage_template
+    elif page.startswith('art-page'):
+        content_to_template_mapping[page] = gallery_template
+    elif page.startswith('music-page'):
+        content_to_template_mapping[page] = tab_based_template
 
 # Populate templates with content and write to files as the rendered pages
 # Process global content first:

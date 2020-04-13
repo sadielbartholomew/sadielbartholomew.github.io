@@ -1,0 +1,62 @@
+name: Untitled in E Minor
+
+one_line_summary: >
+  About  'Untitled in E Minor' (see SoundCloud)
+
+guitar_tab_intro: >
+  A short piece I wrote in 2019 for the classical guitar and then recorded
+  and uploaded to SoundCloud. I am still unsure about a name for it, so it is
+  'Untitled' for now. There's little to it so I may come back to it at some
+  point to develop it further (but realistically it will probably get left
+  behind). Here is the guitar tablature for it as it stands:
+
+guitar_tab: |-
+  Q.=72
+  6/8                                       To Coda
+
+      Gtr I
+        E E E  E E E    E E E  E E E    E E E  E E E    E E E E E E
+  e||-----------------|---------------|---------------|------------------||
+  B||o-------0------0-|------0------0-|------0------0-|------0-----0----o||
+  G||------0------0---|----0------0---|----0------0---|----0-----0-------||
+  D||----------10-----|--------10-----|--------10-----|------------------||
+  A||o----------------|---------------|---------------|-10-----9--------o||
+  E||---12------------|-12------------|-12------------|------------------||
+
+
+    E E E  E E E   E E E E E E   E E E  E E E   E E E E E E
+  |--------------|-------------|--------------|----------------|
+  |-----0------0-|-----0-----0-|-----0------0-|-----0-----0----|
+  |---7------0---|---9-----0---|---7------0---|---9-----5------|
+  |-------10-----|-------7-----|-------10-----|----------------|
+  |-5------------|-7-----------|-5------------|-7-----3--------|
+  |--------------|-------------|--------------|----------------|
+
+
+    E E E E E E    E E E E E E   E E E E E E   E E E E E E
+  |--------------|-------------|-------------|----------------|
+  |-----0-----0--|-----0-----0-|-----0-----0-|-----0-----0----|
+  |---7-----4----|---5-----2---|---2-----0---|---0-----0------|
+  |--------------|-------------|-------------|-------4--------|
+  |-5-----2------|-3-----0-----|-2-----6-----|-7--------------|
+  |--------------|-------------|-------------|----------------|
+
+
+                              D.C. al Coda    &
+    E E E E E E   E E E E E E   E E E E E E    H   W
+  |-------------|-------------|-------------|-----------*|
+  |-----0-----0-|-----0-----0-|-----0-----0-|------0----*|
+  |---0-----0---|---0-----0---|---0-----8---|-----------*|
+  |-5-----2-----|-0-----------|-------------|------2----*|
+  |-------------|-------0-----|-2-----9-----|------2----*|
+  |-------------|-------------|-------------|-12---0----*|
+
+
+guitar_tab_outro: >
+  The tab itself has been copied in from a direct export of the music which
+  was written up in Power Tab Editor, an excellent piece of software that I
+  use extensively to capture and (re-)listen to any significant musical lines
+  I think up (very useful as I would quickly forget them otherwise). It is
+  actually really old on a general software timescale (last
+  stable release 2006!) but it is free and does the job perfectly so I've
+  never felt the need to find a similar modern tool.
