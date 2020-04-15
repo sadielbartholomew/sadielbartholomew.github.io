@@ -9,8 +9,17 @@ about_subsection_phrase_3: thoughts & notes on music in general
 
 # MAIN SUBSECTION CONTENT -----------------------------------------------------
 
-paragraph: >
-  These pages are under construction, but eventually will be populated to
-  contain the above items. In the meantime, you can listen to a tiny subset
-  of my piecemeal musical compositions on my user page on SoundCloud, as
-  linked from the homepage (see the row of icons towards the top).
+intro_paragraph: >
+  These pages are under construction. Pages will be developed, added &
+  extended over time. You can listen to a small subset
+  of my musical compositions on my user page on SoundCloud, as
+  linked from the homepage (see the row of icons towards the top). They will
+  also be added incrementally.
+
+
+# PAGE LISTING ----------------------------------------------------------------
+
+listing_preamble: "Some of my music is documented in the following:"
+
+listing_item_1_link: music-page-untitledeminor.html
+listing_item_1_text: Untitled in E Minor

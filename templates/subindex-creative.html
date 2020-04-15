@@ -73,8 +73,25 @@
               <div class="tm-page-name-container-inner">
                 <h2 class="tm-text-primary-blue">
                   <p class="mb-0">
-                    {{ page.paragraph }}
+                    {{ page.intro_paragraph }}
                   </p>
+                  <p class="mb-3 mt-3">
+                    {{ page.listing_preamble }}
+                  </p>
+                  <ol class="ml-4">
+                    <li>
+                      <a href="{{ page.listing_item_1_link }}"
+                         class="btn btn-light">
+                        {{ page.listing_item_1_text }}
+                      </a>
+                    </li>
+                    <li>
+                      ... <i>more to come soon</i> ...
+                    </li>
+                    <li>
+                      ...
+                    </li>
+                  </ol>
                 </h2>
               </div>
             </div>

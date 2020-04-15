@@ -9,6 +9,16 @@ about_subsection_phrase_3: assorted designs, ideas & thoughts
 
 # MAIN SUBSECTION CONTENT -----------------------------------------------------
 
-paragraph: >
-  These pages are under construction, but eventually will be populated to
-  contain the above items.
+intro_paragraph: >
+  These pages are under construction. They will be developed, added &
+  extended over time.
+
+
+# PAGE LISTING ----------------------------------------------------------------
+
+listing_preamble: >
+  Some of my artwork is documented in the following. I will try to
+  have some sort of theme for each page.
+
+listing_item_1_link: art-page-landscapes.html
+listing_item_1_text: Selected landscapes
