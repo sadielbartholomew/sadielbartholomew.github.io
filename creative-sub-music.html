@@ -23,6 +23,10 @@
     <script src="https://kit.fontawesome.com/730f23fb98.js"
             crossorigin="anonymous"></script>
 
+    <!-- Other required scripts, including their dependencies -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/nav-burger-bar.js"></script>
+
     <link rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="css/all.min.css" />
@@ -73,6 +77,25 @@
 
   <body>
     <div class="bg-all-white">
+
+
+      <!-- COLLAPSING NAVIGATION -->
+      <div class="open">
+        <span class="cls"></span>
+        <span>
+          <ul class="sub-menu black-background white-text">
+            <li>
+              <a href="index.html" title="Home">&#10092; Home</a>
+            </li>
+            <li>
+              <!-- TODO: add sitemap! -->
+              <a href="#" title="Sitemap">&#10093; Sitemap</a>
+            </li>
+          </ul>
+        </span>
+        <span class="cls"></span>
+      </div>
+
 
       <!-- PAGE HEADER WITH NAME AND SUMMARY -->
       <section id="page-header" class="tm-section-logo">

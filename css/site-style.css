@@ -630,6 +630,237 @@ pagefooter {
 }
 
 
+/* --------------------- NAVIGATION 'BURGER' BAR -------------------- */
+
+.open {
+  top: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.open:hover {
+  opacity: 0.8;
+}
+
+.open span {
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #fc991a;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.open span:nth-child(1) {
+  margin-top: 10px;
+  z-index: 9;
+}
+
+.open span:nth-child(2) {
+  margin-top: 25px;
+}
+
+.open span:nth-child(3) {
+  margin-top: 40px;
+}
+
+.sub-menu {
+  transition: all 0.8s cubic-bezier(0.08, -1.50, 0.965, 1.55);
+  height: 0;
+  width: 0;
+  right: 55px;
+  top: 40px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 18;
+  overflow: hidden;
+}
+
+.sub-menu.black-background {
+  background-color: #1a1a1a;
+}
+
+.sub-menu li {
+  display: block;
+  float: right;
+  clear: both;
+  height: auto;
+  margin-right: -170px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child {
+  margin-top: 250px;
+}
+
+.sub-menu li:nth-child(1) {
+  -webkit-transition-delay: 0.05s;
+}
+
+.sub-menu li:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+}
+
+.sub-menu li:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+}
+
+.sub-menu li:nth-child(4) {
+  -webkit-transition-delay: 0.2s;
+}
+
+.sub-menu li:nth-child(5) {
+  -webkit-transition-delay: 0.25s;
+}
+
+.sub-menu li a {
+  color: #1a1a1a;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 30px;
+}
+
+.sub-menu.white-text li a {
+  color: white;
+}
+
+.oppenned .sub-menu {
+  opacity: 1;
+  height: 360px;
+  width: 360px;
+}
+
+.oppenned span:nth-child(2) {
+  overflow: visible;
+}
+
+.oppenned span:nth-child(1), .oppenned span:nth-child(3) {
+  z-index: 100;
+  transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1) {
+  transform: rotate(45deg) translateY(12px) translateX(12px);
+}
+
+.oppenned span:nth-child(2) {
+  height: 0px;
+  width: 0px;
+  right: -190px;
+  top: -200px;
+  border-radius: 50%;
+  background-color: none;
+  margin-top: 0px;
+}
+
+.oppenned span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+
+.oppenned li {
+  margin-right: 168px;
+}
+
+.open-button {
+  display: block;
+  float: left;
+  clear: both;
+  padding: 20px 40px;
+  background: #1a1a1a;
+  border-radius: 3px;
+  border: 2px solid #10a1ea;
+  overflow: hidden;
+  position: relative;
+}
+
+.open-button:after {
+  transition: transform 0.3s ease;
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  transform: rotate(45deg) translateX(-540px) translateY(-100px);
+  background: #10a1ea;
+  z-index: 1;
+}
+
+.button:before {
+  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #1a1a1a;
+  z-index: 2;
+  text-align: center;
+  padding: 20px 40px;
+  transform: translateY(200px);
+}
+
+.open-button:hover {
+  text-decoration: none;
+}
+
+.open-button:hover:after {
+  transform: translateX(-300px) translateY(-100px);
+}
+
+.open-button:hover:before {
+  transform: translateY(0);
+}
+
+.open-container {
+  display: flex;
+  max-width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  z-index: 10;
+  width: 280px;
+  border-radius: 4px;
+  padding-bottom: 40px;
+  background: #1a1a1a;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card figcaption {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  color: #1a1a1a;
+}
+
+.card img {
+  max-width: 100%;
+  border: 1px solid #222;
+  transition: 0.4s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+
 /* ------- LARGE FEATURED AND BACKGROUNDED IMAGES ------------------- */
 
 #bg_img {
