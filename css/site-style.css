@@ -633,20 +633,19 @@ pagefooter {
 /* --------------------- NAVIGATION 'BURGER' BAR -------------------- */
 
 .open {
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 25px;
   width: 40px;
-  height: 40px;
+  height: 55px;
   display: block;
   cursor: pointer;
   transition: opacity 0.2s linear;
-}
-
-.open:hover {
-  opacity: 0.8;
+  position: absolute;
+  pointer-events: visible;
 }
 
 .open span {
+  pointer-events: none;
   display: block;
   float: left;
   clear: both;
@@ -655,8 +654,6 @@ pagefooter {
   border-radius: 40px;
   background-color: #fc991a;
   position: absolute;
-  right: 30px;
-  top: 30px;
   overflow: hidden;
   transition: all 0.4s ease;
 }
@@ -675,6 +672,7 @@ pagefooter {
 }
 
 .sub-menu {
+  pointer-events: auto;
   transition: all 0.8s cubic-bezier(0.08, -1.50, 0.965, 1.55);
   height: 0;
   width: 0;
@@ -701,7 +699,7 @@ pagefooter {
 }
 
 .sub-menu li:first-child {
-  margin-top: 250px;
+  margin-top: 210px;
 }
 
 .sub-menu li:nth-child(1) {
@@ -738,8 +736,8 @@ pagefooter {
 
 .oppenned .sub-menu {
   opacity: 1;
-  height: 360px;
-  width: 360px;
+  height: 320px;
+  width: 320px;
 }
 
 .oppenned span:nth-child(2) {
@@ -770,7 +768,7 @@ pagefooter {
 }
 
 .oppenned li {
-  margin-right: 168px;
+    margin-right: 138px;
 }
 
 .open-button {
