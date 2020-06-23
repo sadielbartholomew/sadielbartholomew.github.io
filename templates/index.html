@@ -445,13 +445,23 @@
 
       <!-- OUTRO INCLUDING FOOTER -->
       <section id="outro">
-        <div class="container-fluid">
-          <footer class="col-md-6">
-            <p class="tm-copyright-text mb-0 tm-text-secondary">
-              &copy; {{ site_global.copyright_notice }}
-            </p>
-          </footer>
-        </div>
+        <footer>
+          <div class="grid-container tight-grid-container">
+            <div class="grid-item grid-item-text-right">
+              <p class="tm-copyright-text mb-0 tm-text-secondary">
+                &copy; {{ site_global.copyright_notice }}
+              </p>
+            </div>
+            <div class="grid-item grid-item-text-left">
+              <p class="tm-copyright-text mb-0 tm-text-secondary">
+                &#10094;/&#10095; {{ site_global.source_code_pre_text }}
+                <a href="{{ site_global.source_code_link }}">
+                  {{ site_global.source_code_link_text }}
+                </a>
+              </p>
+            </div>
+          </div>
+        </footer>
       </section>
 
 

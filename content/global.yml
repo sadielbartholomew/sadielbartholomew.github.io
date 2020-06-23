@@ -4,6 +4,14 @@ copyright_notice: >
 
   Copyright (content & site design) 2020 Sadie Louise Bartholomew
 
+source_code_pre_text: The source code for this website
+
+source_code_link: >
+
+  https://github.com/sadielbartholomew/sadielbartholomew.github.io
+
+source_code_link_text: is stored & developed on GitHub
+
 placeholder_paragraphs: |
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

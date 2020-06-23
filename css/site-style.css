@@ -176,6 +176,10 @@ a {
   padding: 10px;
 }
 
+.tight-grid-container {
+  grid-template-rows: none;
+}
+
 .grid-item {
   padding: 10px;
   text-align: center;
@@ -198,6 +202,16 @@ a {
   height: 600px;
   object-fit: cover;
   bottom: 0px;
+}
+
+.grid-item-text-right {
+  text-align: right;
+  padding-right: 2em;
+}
+
+.grid-item-text-left {
+  text-align: left;
+  padding-left: 2em;
 }
 
 .grid-item figure img {
