@@ -10,8 +10,8 @@ about_me_phrase_3: creative
 about_me_paragraph: >
   Computational scientist working for the National Centre
   for Atmospheric Science (NCAS). Open-source software
-  & open science aficionado. Recreational artist, guitar
-  music enthusiast & chess student.
+  and open science and knowledge aficionado. Recreational
+  artist, guitar music enthusiast & chess student.
 
 
 # BLACK/WHITE COLUMN (SUB)SECTIONS --------------------------------------------
@@ -59,25 +59,24 @@ featured_sections_introduction_line: Latest work & highlights
 
 # PER-FEATURE
 
-featured_section_1_headline: Replicating Ellsworth Kelly with random sampling
-featured_section_1_img_path: index_featured/SCABC2_single.png
+featured_section_1_headline: New blog post on metadata for geoscience
+featured_section_1_img_path: index_featured/cf_conventions_names_word_cloud.jpg
 featured_section_1_summary: >
-  I recently undertook another mini-project to do
-  something creative with matplotlib. This time I generated
-  works in the spirit of Ellsworth Kelly's 'by chance' series.
+  I have written a departmental blog post on the importance of
+  standardised metadata, particularly for data relating to the Earth
+  and/or in netCDF format.
 
-featured_section_2_headline:  >
-  Intricate tilings using matplotlib: repolygon
-featured_section_2_img_path: index_featured/repolygon_feature_no_border.png
+featured_section_2_headline: Creative coding with matplotlib
+featured_section_2_img_path: index_featured/repolygon_design_9.png
 featured_section_2_summary: >
-  I'm part way through tidying up the core of my project
-  repolygon for quick production of designs of
-  tiled polygons in Python. Learn more about it here!
+  I am continuing to add new, and to develop existing, scripts and outputs
+  towards a personal creative coding project using Python and matplotlib.
 
-featured_section_3_headline:  New website!
+featured_section_3_headline:  New personal website!
 featured_section_3_img_path: external/pixabay-1599663.png
 featured_section_3_summary: >
-  Welcome to my new personal website! Note I'm actively
-  developing it, so it is fairly basic for now. Soon I'll
-  write a little about the motivation behind it & the
-  design choices I have made for it.
+  Welcome to my new website. It's still under
+  development so is fairly basic for now. Soon I'll
+  write a little here about the design choices I have made
+  for the CSS (largely inspired by the exemplary design
+  of the 1996 home shirt of Newcastle United FC).
