@@ -2,9 +2,9 @@ subsection_name: Art
 
 # ABOUT THIS PAGE (SUBSECTION) ------------------------------------------------
 
-about_subsection_phrase_1: paintings in watercolour & oil
-about_subsection_phrase_2: drawings in pen & pencil
-about_subsection_phrase_3: assorted designs, ideas & thoughts
+about_subsection_phrase_1: paintings & drawings
+about_subsection_phrase_2: computational art & design including generative
+about_subsection_phrase_3: design with other media e.g. sea glass
 
 
 # MAIN SUBSECTION CONTENT -----------------------------------------------------
@@ -17,8 +17,14 @@ intro_paragraph: >
 # PAGE LISTING ----------------------------------------------------------------
 
 listing_preamble: >
-  Some of my artwork is documented in the following. I will try to
-  have some sort of theme for each page.
+  I am also showcasing my art and design work via Instagram (as linked
+  in the row of icons at the top of the homepage of this site) to try to
+  extend the reach and to gain inspiration, and interact with, various
+  art and design communities. But in these pages I can showcase related
+  work and collections together rather than standalone, in higher-resolution,
+  and along with commentary and/or notes. So the pages added here will be a
+  more integrated and detailed account of my art and design than the Instagram
+  gallery page:
 
 listing_item_1_link: art-page-landscapes.html
 listing_item_1_text: Selected landscapes
