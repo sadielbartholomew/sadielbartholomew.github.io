@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Offside", sans-serif;
   font-size: 21px;
   font-weight: 400;
   overflow-x: hidden;
@@ -413,7 +413,7 @@ pagefooter {
 }
 
 .tm-site-name {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
