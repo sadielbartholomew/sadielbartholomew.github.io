@@ -158,6 +158,9 @@ a {
   color: #cc3300;
 }
 
+.tm-bg-dark-grey > .tm-text-accent {
+  color: #007cc4;
+}
 
 /* ------------------------- COLUMN CREATION ------------------------ */
 
