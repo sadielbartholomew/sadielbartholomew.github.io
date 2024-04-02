@@ -54,6 +54,22 @@ ol, ul {
   line-height: 1.7;
 }
 
+li {
+  list-style: "🌐 ";
+}
+
+li li {
+  list-style: "☀ ";
+}
+
+li li li {
+  list-style: "🌐 ";
+}
+
+li li li li {
+  list-style: "☀ ";
+}
+
 a:hover {
   text-decoration: none;
 }
