@@ -331,8 +331,13 @@ figure.effect-duke:hover p {
 
 /* ------------------------ SECTION-SPECIFIC ------------------------ */
 
+.tm-profile-img {
+    border: 1px solid #fc991a;
+    margin-bottom: 5px;
+}
+
 .tm-section-logo {
-  padding-top: 170px;
+  padding-top: 75px;
   padding-bottom: 0;
 }
 

@@ -3,6 +3,8 @@ homepage_name: Homepage
 
 # ABOUT ME --------------------------------------------------------------------
 
+about_me_profile_img_path: index_featured/slb_on_gg_bridge.jpg
+
 about_me_phrase_1: computational scientist
 about_me_phrase_2: open-source software contributor
 about_me_phrase_3: creative
@@ -12,7 +14,6 @@ about_me_paragraph: >
   for Atmospheric Science (NCAS). Open-source software
   and open science and knowledge aficionado. Recreational
   artist, guitar music enthusiast & chess student.
-
 
 # BLACK/WHITE COLUMN (SUB)SECTIONS --------------------------------------------
 
