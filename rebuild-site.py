@@ -1,12 +1,16 @@
 import os
-from jinja2 import Environment, FileSystemLoader
+import pprint
 import yaml
-# import pprint  # debugging
+
+from jinja2 import Environment, FileSystemLoader
+
 
 # Define the HTML templates which are processed by Jinja2
 jinja2_env = Environment(loader=FileSystemLoader('./templates'))
 
 root_homepage_template = jinja2_env.get_template('index.html')
+plain_core_template = jinja2_env.get_template('core.html')
+
 creative_homepage_template = jinja2_env.get_template('subindex-creative.html')
 technical_homepage_template = jinja2_env.get_template(
     'subindex-technical.html')
@@ -16,6 +20,7 @@ tab_based_template = jinja2_env.get_template('music-page.html')
 # Define which template should be applied which each content set
 content_to_template_mapping = {
     'index.yml': root_homepage_template,
+    'about-me.yml': plain_core_template,
 }
 for page in os.listdir('content'):  # assume all YAML files (as standard)
     if page.startswith('creative-sub'):

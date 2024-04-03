@@ -1,7 +1,7 @@
 homepage_name: Homepage
 
 
-# ABOUT ME --------------------------------------------------------------------
+# ABOUT ME EXTRA --------------------------------------------------------------
 
 about_me_profile_img_path: index_featured/slb_on_gg_bridge.jpg
 
@@ -12,7 +12,7 @@ about_me_paragraph: >
   Computational scientist in the domain of earth, environmental and aligned
   research (that is, a Research Software Engineer). Recreationally, a visual
   artist, working on pieces from traditional to algorithmic and somewhere
-  in between. To find out more, see 'About Me'.
+  in between.
 
 # BLACK/WHITE COLUMN (SUB)SECTIONS --------------------------------------------
 
