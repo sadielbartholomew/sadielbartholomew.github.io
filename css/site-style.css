@@ -913,6 +913,20 @@ pagefooter {
   background-position: center;
 }
 
+#bg_img_taller {
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#bg_img_smaller {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 /* ------------------- SOCIAL, CONTACT AND FORMS -------------------- */
 

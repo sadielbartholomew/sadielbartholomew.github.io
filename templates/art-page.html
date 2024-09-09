@@ -147,14 +147,14 @@
 
                      TODO: is there a better way to do this i.e. a non-style
                      HTML equivalent to produce a CSS background-image?
-                -->
+                  -->
                 <div class="tm-overlay-container"
-                     id="bg_img"
+                     id="bg_img_smaller"
                      style="background-image:
-                            url('img/drawings_pen/blackbird_ponteland.jpg');">
-                  <div
-                    class="text-black tm-section-text-container-8
-                           tm-bg-white-alpha tm-text-overlay">
+                            url('img/drawings_pen/newcpanocrop_exposure.png');">
+                    <div
+                      class="text-white tm-section-text-container-8
+                             tm-bg-black-alpha tm-text-overlay">
                     <h2 class="tm-section-title-mb tm-overlay-text-larger">
                       {{ page.image_1_title }}
                     </h2>
@@ -190,13 +190,13 @@
                      CSS, but it will have to do for now: I need to inject the
                      image path for background images but want to keep the
                      stylesheets as complete standalone files, not templates.
-                -->
+                  -->
                 <div class="tm-overlay-container"
                      id="bg_img"
                      style="background-image:
-                            url('img/drawings_pen/newcpanocrop_exposure.png');">
-                  <div class="text-white tm-section-text-container-8
-                              tm-bg-black-alpha tm-text-overlay">
+                            url('img/drawings_pen/blackbird_ponteland.jpg');">
+                  <div class="text-black tm-section-text-container-8
+                           tm-bg-white-alpha tm-text-overlay">
                     <h2 class="tm-section-title-mb tm-overlay-text-larger">
                       {{ page.image_2_title }}
                     </h2>
@@ -260,6 +260,52 @@
                     </p>
                     <p>
                       {{ page.image_3_closing_comment }}
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Start of content relating to image 4 -->
+                <h2 class="tm-text-primary-blue">
+                  <p class="mb-3 mt-3">
+                    {{ page.image_4_preamble_part_1 }}
+                  </p>
+                  <br>
+                  <p class="mb-0">
+                    {{ page.image_4_preamble_part_2 }}
+                  </p>
+                </h2>
+
+                <!-- Not good to put any style in with the HTML rather than
+                     CSS, but it will have to do for now: I need to inject the
+                     image path for background images but want to keep the
+                     stylesheets as complete standalone files, not templates.
+                -->
+                <div class="tm-overlay-container"
+                     id="bg_img_taller"
+                     style="background-image:
+                            url('img/paintings/rad_durhamcathedraleast_cropped.png');">
+                  <div class="text-white tm-section-text-container-8
+                              tm-bg-black-alpha tm-text-overlay">
+                    <h2 class="tm-section-title-mb tm-overlay-text-larger">
+                      {{ page.image_4_title }}
+                    </h2>
+                    <ul>
+                      <li>
+                        {{ page.image_4_medium }}
+                      </li>
+                      <li>
+                        {{ page.image_4_date }}
+                      </li>
+                      <li>
+                        {{ page.image_4_size }}
+                      </li>
+                    </ul>
+                    <hr class="tm-hr-mb tm-hr-white" />
+                    <p>
+                      {{ page.image_4_description }}
+                    </p>
+                    <p>
+                      {{ page.image_4_closing_comment }}
                     </p>
                   </div>
                 </div>
