@@ -3,12 +3,11 @@ homepage_name: Homepage
 
 # ABOUT ME EXTRA --------------------------------------------------------------
 
-about_me_profile_img_path: index_featured/slb_on_gg_bridge.jpg
-
 about_me_paragraph: >
-  Senior Research Software Engineer in the field of atmospheric science.
-  Recreationally, a visual artist, working on pieces
-  from traditional to algorithmic and somewhere in between.
+  Computational scientist in the domain of earth, environmental and aligned
+  research (that is, a Research Software Engineer). Recreationally, a visual
+  artist, working on pieces from traditional to algorithmic and somewhere
+  in between.
 
 # BLACK/WHITE COLUMN (SUB)SECTIONS --------------------------------------------
 
@@ -28,7 +27,7 @@ black_column_subsection_1_name: Computing
 black_column_subsection_1_img_path: >
   computational/contour/contour11_panels.png
 black_column_subsection_1_short_description: >
-  Software and computing work I have (co-)developed or contributed to
+  Software & hardware I have (co-)developed or contributed to
 
 black_column_subsection_2_name: Posts & Publications
 black_column_subsection_2_img_path: index_featured/gare_du_nord.jpg
